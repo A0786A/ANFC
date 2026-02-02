@@ -710,8 +710,9 @@ section { padding: 3rem 0; }
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 0.5rem;
+  gap: 0;
   justify-content: center;
+  margin-top: -4rem;
 }
 
 .footer-logo .brand-logo {
@@ -741,6 +742,15 @@ section { padding: 3rem 0; }
   color: rgba(255, 255, 255, 0.8);
   font-size: 0.9rem;
   margin: 0;
+}
+
+.footer-address {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin: -0.75rem 0 0 0;
+  max-width: 220px;
+  padding-left: 2.5rem;
 }
 .copyright { color: rgba(255, 255, 255, 0.7); font-size: 0.95rem; margin-top: 1.25rem; }
 
