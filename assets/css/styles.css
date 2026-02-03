@@ -755,6 +755,20 @@ section { padding: 3rem 0; }
 .copyright { color: rgba(255, 255, 255, 0.7); font-size: 0.95rem; margin-top: 1.25rem; }
 
 /* Copyright Section */
+.footer-address-bar {
+  background: linear-gradient(135deg, var(--brand-primary) 0%, var(--brand-primary-600) 100%);
+  padding: 0.5rem 0 0.9rem 0;
+  text-align: center;
+  color: white;
+}
+
+.footer-address-line {
+  margin: 0;
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.95);
+  text-align: center;
+}
+
 .copyright-section {
   background: var(--brand-secondary);
   padding: 1.5rem 0;
